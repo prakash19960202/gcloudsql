@@ -8,7 +8,7 @@ resource "google_sql_database_instance" "instance" {
      ip_configuration {
       authorized_networks {
         name         = "Allow Local IP"
-        value        = "171.76.82.126"
+        value        = "24.239.131.30"
         
       }
     }
